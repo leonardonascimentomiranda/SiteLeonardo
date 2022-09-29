@@ -1,0 +1,223 @@
+/*Estilização do Corpo da Página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+}
+/*Estilização da sessão HEADER da página*/
+header{
+    background-image: url('Fundo.png');
+    padding: 20px 0;
+    background-size: 680px;
+}
+/*Estilização da sessão NAV (navegação) da página*/
+nav{
+    position: absolute;
+    top: 170px;
+    right: 0%;
+
+}
+nav li{
+    display: inline;
+    margin: 15px 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: 	red;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    list-style: none;
+}
+/*Estilização do Logotipo*/
+.logo_caixa{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.logo{
+    width: 320px;
+    height: 320px;
+    border-radius: 40px;
+    margin: 0 10px;
+}
+.banner{
+    width: 100%;
+}
+/*Estilização da área "Sobre"*/
+
+.barbearia{
+
+    width: 15%;
+
+    float: left;
+
+    margin: 0 20px 20px 0;
+
+}
+
+.titulo-principal{
+
+    text-align: center;
+
+    font-size: 2em;
+
+    margin: 0 0 1em;
+
+    clear: left;
+
+}
+
+.principal{
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    padding: 3em 0;
+
+    background-color: white;
+
+    text-align: justify;
+
+    font-family: 'Arial';
+
+    /*text-transform: uppercase;*/
+
+}
+
+.principal strong{
+
+    font-weight: bold;
+
+}
+
+/*Estilização do Mapa*/
+
+.map{
+
+    padding: 3em 0;
+
+    background: linear-gradient(#c57d56, #582417);
+
+}
+
+.mapa-conteudo{
+
+    width: 940px;
+
+    margin: 0 640px;
+
+}
+
+.map p{
+
+    margin: 0 0 2em;
+
+    text-align: center;
+
+}
+
+/*Área Benefícios e Vídeo*/
+
+.Serviços{
+
+    padding: 3em 0;
+
+    background: #8d4925;
+
+}
+
+.conteudo-serviços{
+
+    width: 640px;
+
+    margin: auto;
+
+}
+
+.lista-serviços{
+
+    width: 50%;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    margin: 0 640px;
+}
+
+.img-serviços{
+
+    width: 25%;
+
+    opacity: 1;
+
+    transition: 400ms;
+
+    box-shadow: 10px 10px 5px 0px black;
+
+    margin: 0 640px;
+
+}
+
+.img-serviços:hover{
+
+    opacity: 0.7;
+
+}
+
+.itens{
+
+    line-height: 1.5;
+    margin: 0 640px;
+
+}
+
+.itens:before{
+
+    content: "💈";  
+    
+
+}
+
+.itens:first-child{
+
+    font-weight: bold;
+
+}
+
+.video{
+
+    width: 560px;
+
+    margin: 2em auto;
+
+}
+
+nav a:hover{
+
+    color: orange;
+
+    text-decoration: underline;
+
+}
+
+footer{
+
+    text-align: center;
+
+    background-image: url('Fundo.png');
+
+   color: white;
+
+}
