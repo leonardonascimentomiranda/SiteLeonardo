@@ -9,8 +9,11 @@ body{
 /*Estilização da sessão HEADER da página*/
 header{
     background-image: url('Fundo.png');
-    padding: 20px 0;
+    /*background:linear-gradient(#708090, #2F4F4F);*/
+    width: 100%     ;
     background-size: 680px;
+    padding: 20px 0;
+    
 }
 /*Estilização da sessão NAV (navegação) da página*/
 nav{
@@ -21,7 +24,7 @@ nav{
 }
 nav li{
     display: inline;
-    margin: 15px 0 0 15px;
+    margin: 0 0 0 50px;
 }
 nav a{
     text-transform: uppercase;
@@ -31,7 +34,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: 	red;
+    color: red;
     text-decoration: underline;
 }
 /*Estilização das listas da página*/
@@ -45,10 +48,10 @@ ul{
     margin: auto;
 }
 .logo{
-    width: 320px;
-    height: 320px;
-    border-radius: 40px;
-    margin: 0 10px;
+    width: 400px;
+    height: 340px;
+    border-radius: 50px;
+    margin: 0 -50px;
 }
 .banner{
     width: 100%;
@@ -56,168 +59,91 @@ ul{
 /*Estilização da área "Sobre"*/
 
 .barbearia{
-
     width: 15%;
-
+    height: 30%;
     float: left;
-
-    margin: 0 20px 20px 0;
-
+    margin: -60px 20px 20px 0;
 }
-
 .titulo-principal{
-
     text-align: center;
-
     font-size: 2em;
-
     margin: 0 0 1em;
-
     clear: left;
-
 }
-
 .principal{
-
     width: 90%;
-
     margin: 0 auto;
-
     padding: 3em 0;
-
     background-color: white;
-
     text-align: justify;
-
     font-family: 'Arial';
-
     /*text-transform: uppercase;*/
-
 }
-
 .principal strong{
-
     font-weight: bold;
-
 }
-
 /*Estilização do Mapa*/
-
-.map{
-
+.map{   
     padding: 3em 0;
-
     background: linear-gradient(#c57d56, #582417);
-
 }
-
 .mapa-conteudo{
-
     width: 940px;
-
-    margin: 0 640px;
-
+    margin: 0 390px;
 }
-
 .map p{
-
     margin: 0 0 2em;
-
     text-align: center;
-
 }
-
 /*Área Benefícios e Vídeo*/
-
 .Serviços{
-
     padding: 3em 0;
-
     background: #8d4925;
-
 }
-
-.conteudo-serviços{
-
+.conteudo-Serviços{
     width: 640px;
-
-    margin: auto;
-
+    margin: 0 auto;
 }
-
-.lista-serviços{
-
+.lista-Serviço{
     width: 50%;
-
     display: inline-block;
-
     vertical-align: top;
-
-    margin: 0 640px;
 }
-
 .img-serviços{
-
     width: 25%;
-
     opacity: 1;
-
     transition: 400ms;
-
     box-shadow: 10px 10px 5px 0px black;
-
-    margin: 0 640px;
-
 }
-
-.img-serviços:hover{
-
+.img-beneficios:hover{
     opacity: 0.7;
-
 }
-
 .itens{
-
     line-height: 1.5;
-    margin: 0 640px;
-
 }
-
 .itens:before{
-
     content: "💈";  
-    
-
 }
-
 .itens:first-child{
-
     font-weight: bold;
-
 }
-
 .video{
-
     width: 560px;
-
     margin: 2em auto;
-
 }
-
 nav a:hover{
-
     color: orange;
-
     text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-image: url('barbearia.png');
+    color: white;
 
 }
-
-footer{
-
-    text-align: center;
-
-    background-image: url('Fundo.png');
-
-   color: white;
-
+.item{
+    background-color: darkred;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
 }

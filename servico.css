@@ -1,0 +1,78 @@
+/*Estilização do Corpo da Página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+}
+/*Estilização da sessão HEADER da página*/
+header{
+    background-image: url('Fundo.png');
+    /*background:linear-gradient(#708090, #2F4F4F);*/
+    width: 100%;
+    background-size: 680px;
+    padding: 20px 0;
+    
+}
+/*Estilização da sessão NAV (navegação) da página*/
+nav{
+    position: absolute;
+    top: 170px;
+    right: 0%;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: 	red;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    list-style: none;
+}
+/*Estilização do Logotipo*/
+.logo_caixa{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+.logo{
+    width: 400px;
+    height: 340px;
+    border-radius: 50px;
+    margin: 0 -50px;
+}
+.banner{
+    width: 100%;
+}
+body{
+    background: #4b3a2a;
+}
+.photo{
+    width: 30%;
+    height: 290px;
+    object-fit: cover;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+.polaroid{
+    background: blanchedalmond;
+    padding: 15px 15px 40px;
+}
